@@ -1,3 +1,0 @@
-table,column,dtype_inferred,n_non_null,n_null,pct_missing,n_unique,examples
-industry_data,new_industry_code,int64,47767,0,0.0,44,"101, 101, 101"
-industry_data,company_id,int64,47767,0,0.0,47767,"173839, 400434, 766803"

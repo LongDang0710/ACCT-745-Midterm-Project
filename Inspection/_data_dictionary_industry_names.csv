@@ -1,3 +1,0 @@
-table,column,dtype_inferred,n_non_null,n_null,pct_missing,n_unique,examples
-industry_names,Industry Name,object,46,0,0.0,46,"Agriculture, Mining, quarrying, and extraction, food processing & manufacture"
-industry_names,Industry code,int64,46,0,0.0,44,"101, 102, 103"
