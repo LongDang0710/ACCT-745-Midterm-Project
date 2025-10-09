@@ -1,6 +1,6 @@
 # clean_and_summarize.py
 # ACCT 745 — Data cleaning & statistics summary
-# Author: <you>
+# Author: Long Dang
 # Purpose: Parse dates, de-duplicate at grain, standardize industry tables,
 #          merge, compute metrics/flags, and export cleaned tables + summaries.
 
@@ -10,7 +10,7 @@ import numpy as np
 import re
 
 # ============
-# 1) SETTINGS
+# 1) SETTINGS (Remember to change the datasets path if you plan to use the code yourself)
 # ============
 BASE_DIR = Path(r"F:\Master Resources\ACCT.745.01 - Acctg Info. & Analytics\Project 1\(1) Accounts Receivables Provision Data")
 

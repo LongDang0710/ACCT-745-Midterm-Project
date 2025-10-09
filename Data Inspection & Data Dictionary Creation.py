@@ -1,6 +1,6 @@
 # inspect_and_dictionary.py
 # ACCT 745 — Data inspection & data dictionary creation
-# Author: <you>
+# Author: Long Dang
 # Purpose: Load the 3 CSVs, sanity-check, and write data dictionaries to CSV.
 
 from pathlib import Path
@@ -12,6 +12,7 @@ import re
 # 1) SETTINGS
 # ============
 # Use a raw string (r"...") for Windows paths so backslashes don't need escaping.
+# Remember to change the datasets path if you plan to use the code yourself
 BASE_DIR = Path(r"F:\Master Resources\ACCT.745.01 - Acctg Info. & Analytics\Project 1\(1) Accounts Receivables Provision Data")
 
 FILES = {

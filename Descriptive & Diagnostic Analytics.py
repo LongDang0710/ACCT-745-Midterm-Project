@@ -1,6 +1,6 @@
 # describe_and_diagnose.py
 # ACCT 745 — Descriptive & Diagnostic analytics (figures + summary tables)
-# Author: <you>
+# Author: Long Dang
 # Inputs: uses the CLEANED/MERGED dataset from step 2: _output_clean/_fact_cleaned_with_metrics.csv
 
 from pathlib import Path
@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import TwoSlopeNorm
 
 # ============
-# 1) SETTINGS
+# 1) SETTINGS (Remember to change the datasets path if you plan to use the code yourself)
 # ============
 BASE_DIR = Path(r"F:\Master Resources\ACCT.745.01 - Acctg Info. & Analytics\Project 1\(1) Accounts Receivables Provision Data")
 CLEAN_DIR = BASE_DIR / "_output_clean"
@@ -20,7 +20,7 @@ ANALYSIS_DIR.mkdir(parents=True, exist_ok=True)
 FACT_FILE = CLEAN_DIR / "_fact_cleaned_with_metrics.csv"
 
 # ----------------------
-# PLOT STYLE (optional)
+# PLOT STYLE
 # ----------------------
 plt.rcParams.update({
     "figure.figsize": (12, 7),
@@ -245,7 +245,7 @@ cbar.set_label("Pearson r")
 
 plt.title("Correlation Heatmap — Key Metrics")
 plt.tight_layout()
-savefig("fig_corr_heatmap_coolwarm_annotated.png")
+savefig("fig_corr_heatmap.png")
 
 # ==================================
 # 7) OPTIONAL READ-ME STYLE SUMMARY

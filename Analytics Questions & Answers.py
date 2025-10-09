@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import warnings
 
 # ============
-# 1) SETTINGS
+# 1) SETTINGS (Remember to change the datasets path if you plan to use the code yourself)
 # ============
 BASE_DIR  = Path(r"F:\Master Resources\ACCT.745.01 - Acctg Info. & Analytics\Project 1\(1) Accounts Receivables Provision Data")
 CLEAN_DIR = BASE_DIR / "_output_clean"
@@ -21,7 +21,7 @@ pd.set_option("display.width", 160)
 pd.set_option("display.max_columns", 40)
 pd.set_option("display.max_rows", 25)
 
-# Optional simple style; keep colors default per your environment
+# Style
 plt.rcParams.update({
     "figure.figsize": (11, 6),
     "axes.grid": True,
